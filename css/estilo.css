@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    height: 25px; /* Altura da imagem */
+    width: 25px; /* Largura da imagem */
+}
+
+.medalhas {
+    height: 20px; /* Altura da imagem */
+    width: 20px; /* Largura da imagem */
+}
+
+td {
+    text-align: center;
+}
+
+/* .pais {
+    text-align: left;
+    width: 200px;
+} */
+
+td {
+    width: 30px;
+}
+
+td:nth-child(1) {
+    width: 15px;
+}
+
+td:nth-child(3) {
+    text-align: left;
+    width: 200px;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+tr:hover {
+    background-color: burlywood;
+}
